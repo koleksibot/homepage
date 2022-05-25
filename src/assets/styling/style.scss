@@ -1,0 +1,94 @@
+.homepage-title {
+	text-align-last: center;
+	padding-top: 3rem;
+	padding-bottom: 0.25rem;
+	color: gray;
+	font-weight: 600 !important;
+	font-size: 24px !important;
+}
+
+.menu-title {
+	font-weight: 600 !important;
+	font-size: 40px !important;
+	text-align: center;
+	margin-bottom: 0.5rem !important;
+} 
+
+.menu-subtitle {
+	text-align: center;
+	font-style: italic !important;
+	margin-bottom: 5rem !important;
+}
+
+.menu-description {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.menu-description a {
+	text-decoration: none;
+	color: #2DBE60;
+}
+
+.menu-mt {
+	margin-top: 10rem;
+}
+
+.table-sla thead th {
+	vertical-align: bottom;
+	border-bottom: 2px solid #dee2e6;
+	font-weight: 700 !important;
+	color: #5e798d!important;
+}
+
+.table-sla th {
+	padding: 0.75rem;
+	vertical-align: top;
+	border-top: 1px solid #dee2e6;
+}
+
+.table-sla td {
+	color: #5e798d!important;
+}
+
+.responsive-iframe {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-register {
+	margin: 0 auto;
+	width: 80%;
+	display: block;
+	background-color: #f8f8f8;
+}
+
+.menu-register-fee {
+	font-weight: 600 !important;
+}
+
+.menu-contact-maps {
+	height: 20rem;
+}
+
+@media screen and (max-width: 600px) {
+	.menu-mt {
+		margin-top: 3rem;
+	}
+
+	.menu-title {
+		font-size: 24px !important;
+	}
+
+	.menu-register {
+		width: 100%;
+	}
+
+	.menu-register-fee {
+    margin-top: 3rem;
+	}
+}

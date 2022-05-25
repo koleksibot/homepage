@@ -1,0 +1,327 @@
+.homepage {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.44),
+      rgba(255, 255, 255, 0.44)),
+    url(../../static/images/header_background.webp);
+  min-height: 752px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .heroTitle {
+    font-size: 42px;
+    font-weight: 500;
+    color: #00a339;
+  }
+
+  .heroDescription {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.15px;
+    color: #425766;
+    margin-top: 28px;
+    margin-bottom: 20px;
+  }
+
+  .playstoreLogo {
+    margin-right: 30px;
+  }
+}
+
+.title-section {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  color: #5e798d;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.divider {
+  height: 4px;
+  width: 60px;
+  background: rgb(54, 51, 51);
+  background: linear-gradient(90deg,
+      rgba(54, 51, 51, 1) 0%,
+      rgba(10, 153, 4, 1) 100%);
+  margin: 20px auto;
+}
+
+.section-why-landx {
+  background-color: #f8f8f8;
+  padding: 30px;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+
+  .card-why-landx {
+    min-height: 295px;
+    width: 100%;
+    background-image: linear-gradient(#fff, #d8ffeb);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 8px 10px 1px rgb(0 0 0 / 14%);
+
+    .container-img {
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-icon {
+      display: block;
+      height: 72px;
+      width: 72px;
+      margin: 0 auto;
+    }
+
+    .title-icon {
+      font-size: 16px;
+      font-weight: 700;
+      color: #5e798d;
+      margin-bottom: 10px;
+    }
+  }
+
+  .slick-track {
+    height: 320px;
+  }
+}
+
+.container-ongoing-projects {
+  .container-card-projects {
+    .slick-list {
+      min-height: 550px;
+      padding-left: 5px;
+    }
+
+    .slick-dots {
+      bottom: 10px;
+    }
+
+    .slick-track {
+      margin-right: 0;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .container-load {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+  }
+}
+
+.container-article {
+  .container-load {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+  }
+
+  .slick-track {
+    min-height: 550px;
+  }
+}
+
+.container-how-it-works {
+  background: #F8F8F8;
+  min-height: 636px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .slick-list {
+    height: 360px;
+  }
+}
+
+.card-landx-work {
+  text-align: center;
+  width: 100%;
+  min-height: 320px;
+  box-shadow: 0 8px 10px 1px rgb(0 0 0 / 14%);
+
+  .container-img {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #5e798d;
+  }
+
+  .card-content {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5e798d;
+  }
+}
+
+.container-yt {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+  width: 100%;
+
+  .banner-yt {
+    height: 315px;
+    width: 100%;
+  }
+}
+
+.container-logo-ojk {
+  margin-bottom: 30px;
+}
+
+.container-cta {
+  margin-top: 20px !important;
+
+  .appstoreLogo {
+    height: 60px;
+  }
+}
+
+.container-value-investor {
+  padding: 20px 0;
+
+  .container-load {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.video-frame {
+  width: auto;
+  height: 310px;
+}
+
+// section kinerja assets
+.section-kinerja-asset {
+  min-height: 580px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .container-slider-center {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  .slider-ValueInvestor {
+    text-align: center;
+  }
+
+  .container-card-projects {
+    .slick-track {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container-banner {
+    flex-direction: column-reverse !important;
+  }
+
+  .container-cta {
+    .appstoreLogo {
+      height: 38px;
+    }
+  }
+
+  .section-why-landx {
+    padding: 0;
+
+    .slick-slide {
+      height: 320px;
+    }
+  }
+
+  .container-yt {
+    margin-top: 300px;
+    justify-content: center;
+  }
+
+  .homepage {
+    text-align: center;
+    background-image: #dee4e9;
+
+    .heroTitle {
+      font-size: 22px;
+      margin-top: 20px;
+    }
+
+    .container-logo-ojk {
+      width: 100%;
+      margin-bottom: 30px;
+
+      .logo-ojk {
+        width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    }
+
+    .container-cta {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      width: 100%;
+
+      .cta-image {
+        width: 150px;
+      }
+
+      .appstoreLogo {
+        height: 46px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .video-frame {
+    width: auto;
+    height: 175px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .container-ongoing-projects {
+    .container-card-projects {
+      .slick-track {
+        min-height: 580px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container-ongoing-projects {
+    .slick-slide {
+      padding: 0 7px;
+    }
+  }
+}

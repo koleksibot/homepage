@@ -1,0 +1,163 @@
+.footer-background {
+  background-color: #f8f8f8;
+  margin-top: 220px;
+}
+
+.footer-CTA-move {
+  margin: auto;
+  text-align-last: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-CTA-background {
+  background-image: url("../../../static/images/LandX-Background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  width: 100%;
+  box-shadow: 0 6px 12px #bebebe;
+}
+
+.footer-font {
+  font-size: 28px !important;
+  font-weight: 800 !important;
+  padding: 3rem 1.5rem 3rem 1.5rem;
+}
+
+.footer-fcolor {
+  color: #5e798d !important;
+  font-weight: 600 !important;
+  margin-bottom: 3rem !important;
+}
+
+.footer-icon-link {
+  margin-right: 1rem !important;
+}
+
+.footer-menu-one a {
+  text-decoration: none;
+  color: #5e798d;
+  font-weight: 700;
+  width: 100% !important;
+  text-align-last:left;
+}
+
+.footer-menu-two a {
+  text-decoration: none;
+  color: #5e798d;
+  font-weight: 500;
+  width: 100% !important;
+  text-align-last:left;
+}
+
+.footer-menu-title {
+  font-weight: 700 !important;
+  text-align-last: left !important;
+  margin-left: 1rem !important;
+  margin-top: 12px !important;
+}
+
+.text-copyright {
+  color: #5e798d;
+  text-align: left;
+  margin-top: 2rem !important;
+  display: block;
+}
+
+.container-icon-copyright {
+  margin-top: 12px;
+  text-align-last: left;
+}
+
+.rule-landx {
+  padding-left: 1rem !important;
+  margin-top: 7.5rem !important;
+}
+.display-f-center {
+  display: flex;
+  align-items: center;
+}
+
+.display-fj-start {
+  justify-content: start;
+}
+.display-fj-end {
+  justify-content: end;
+}
+
+.sections span {
+  width: 32px;
+  height: 2px;
+  background-color: transparent;
+  bottom: 0;
+  top: auto !important;
+  left: 1rem !important;
+}
+
+.sections li:hover {
+  background-color: transparent !important;
+}
+
+.sections a:hover {
+  color: #2dbe60 !important;
+}
+
+.sections a:hover + span {
+  background-color: #2dbe60 !important;
+}
+
+.footer-images-size {
+  height: 130px;
+  max-width: 100%;
+}
+
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
+  .footer-CTA-move {
+    text-align: center;
+  }
+
+  .mt-4 {
+    margin-top: 4rem !important;
+  }
+
+  .mb-3 {
+    margin-bottom: 3rem !important;
+  }
+
+  .ml-1 {
+    margin-left: 1rem !important;
+  }
+
+  .footer-font {
+    font-size: 21px !important;
+  }
+
+  .container-icon-copyright {
+    text-align-last: center;
+  }
+
+  .text-copyright {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px !important;
+    text-align: center;
+  }
+
+  .rule-landx {
+    margin-top: 30px !important;
+  }
+
+  .app-store {
+    margin-top: 10px;
+    width: 203px;
+    margin-left: 0;
+  }
+
+  .display-f-center {
+    justify-content: center !important;
+  }
+}

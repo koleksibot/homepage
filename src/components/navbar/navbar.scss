@@ -1,0 +1,51 @@
+.container-navbar {
+  border-bottom: #e7e7e7 solid 1px;
+
+  .text-link {
+    color: #5e798d;
+    text-decoration: none;
+  }
+
+  .text-link-company {
+    color: #5e798d;
+    text-decoration: none;
+  }
+
+  .container-btn {
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+
+    .btn-text {
+      text-decoration: none;
+    }
+  }
+
+  .menulink {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  hr {
+    margin-bottom: 0 !important;
+  }
+
+  .d-none {
+    display: none;
+  }
+
+  .icon-menu {
+    width: 33px;
+    height: 33px;
+    cursor: pointer;
+  }
+
+  .text-btn-link:hover {
+    text-decoration: none !important;
+    background-color: transparent;
+  }
+
+  .text-link li:hover {
+    background-color: transparent;
+  }
+}
